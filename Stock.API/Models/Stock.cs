@@ -15,7 +15,7 @@ namespace Stock.API.Models
 
         [BsonRepresentation(MongoDB.Bson.BsonType.Int64)]
         [BsonElement(Order = 2)]
-        public int Count { get; set; }
+        public uint Count { get; set; }
 
 
     }
